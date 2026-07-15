@@ -151,32 +151,26 @@ The repository deliberately does not prescribe a video codec or encoder. Its res
 
 ## Supported languages
 
-The selection follows the “all respondents” results in the [2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology#most-popular-technologies-language), the latest published results while this repository was prepared. It takes the 20 highest-ranked general-purpose application languages after excluding markup, query, shell, and assembly entries, whose ports would be wrappers or platform-specific rather than comparable library implementations.
-
-| Language | Survey usage | Library | Example | Verified here |
-| --- | ---: | --- | --- | --- |
-| JavaScript | 66.0% | [`brush.mjs`](languages/javascript/brush.mjs) | [`example.mjs`](languages/javascript/example.mjs) | Execute + SVG |
-| Python | 57.9% | [`brush.py`](languages/python/brush.py) | [`example.py`](languages/python/example.py) | Execute + SVG |
-| TypeScript | 43.6% | [`brush.ts`](languages/typescript/brush.ts) | [`example.ts`](languages/typescript/example.ts) | Execute + SVG |
-| Java | 29.4% | [`Brush.java`](languages/java/Brush.java) | [`Example.java`](languages/java/Example.java) | Compile + SVG |
-| C# | 27.8% | [`Brush.cs`](languages/csharp/Brush.cs) | [`Example.cs`](languages/csharp/Example.cs) | Static review |
-| C++ | 23.5% | [`brush.hpp`](languages/cpp/brush.hpp) | [`example.cpp`](languages/cpp/example.cpp) | Compile + SVG |
-| C | 22.0% | [`brush.h`](languages/c/brush.h) | [`example.c`](languages/c/example.c) | Compile + SVG |
-| PHP | 18.9% | [`brush.php`](languages/php/brush.php) | [`example.php`](languages/php/example.php) | Static review |
-| Go | 16.4% | [`brush.go`](languages/go/brush.go) | [`main.go`](languages/go/example/main.go) | Execute + SVG |
-| Rust | 14.8% | [`brush.rs`](languages/rust/brush.rs) | [`example.rs`](languages/rust/example.rs) | Compile + SVG |
-| Kotlin | 10.8% | [`Brush.kt`](languages/kotlin/Brush.kt) | [`Example.kt`](languages/kotlin/Example.kt) | Compile + SVG |
-| Lua | 9.2% | [`brush.lua`](languages/lua/brush.lua) | [`example.lua`](languages/lua/example.lua) | Execute + SVG |
-| Ruby | 6.4% | [`brush.rb`](languages/ruby/brush.rb) | [`example.rb`](languages/ruby/example.rb) | Execute + SVG |
-| Dart | 5.9% | [`brush.dart`](languages/dart/brush.dart) | [`example.dart`](languages/dart/example.dart) | Static review |
-| Swift | 5.4% | [`Brush.swift`](languages/swift/Brush.swift) | [`Example.swift`](languages/swift/Example.swift) | Compile + SVG |
-| R | 4.9% | [`brush.R`](languages/r/brush.R) | [`example.R`](languages/r/example.R) | Static review |
-| Groovy | 4.8% | [`Brush.groovy`](languages/groovy/Brush.groovy) | [`Example.groovy`](languages/groovy/Example.groovy) | Compile + SVG |
-| Perl | 3.8% | [`Brush.pm`](languages/perl/Brush.pm) | [`example.pl`](languages/perl/example.pl) | Execute + SVG |
-| Elixir | 2.7% | [`brush.ex`](languages/elixir/brush.ex) | [`example.exs`](languages/elixir/example.exs) | Static review |
-| Scala | 2.6% | [`Brush.scala`](languages/scala/Brush.scala) | [`Example.scala`](languages/scala/Example.scala) | Static review |
-
-“Static review” means that the implementation and example were completed and audited, but that language runtime was not present locally. No missing environment was installed just to run it. The other 14 examples passed their built-in geometry checks, generated well-formed SVG, and produced the same canonical infinity path.
+- [C](languages/c/)
+- [C++](languages/cpp/)
+- [C#](languages/csharp/)
+- [Dart](languages/dart/)
+- [Elixir](languages/elixir/)
+- [Go](languages/go/)
+- [Groovy](languages/groovy/)
+- [Java](languages/java/)
+- [JavaScript](languages/javascript/)
+- [Kotlin](languages/kotlin/)
+- [Lua](languages/lua/)
+- [Perl](languages/perl/)
+- [PHP](languages/php/)
+- [Python](languages/python/)
+- [R](languages/r/)
+- [Ruby](languages/ruby/)
+- [Rust](languages/rust/)
+- [Scala](languages/scala/)
+- [Swift](languages/swift/)
+- [TypeScript](languages/typescript/)
 
 ## Directory structure
 
