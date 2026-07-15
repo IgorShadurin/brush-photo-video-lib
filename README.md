@@ -4,7 +4,7 @@ Type some words, draw a line over a photo, and this library makes the words foll
 
 This repository implements the same text-on-path brush algorithm in 20 popular programming languages. Every directory contains a dependency-free library and a runnable example that embeds a photo, builds a smooth path, lays repeated Unicode text on it, and writes a standalone SVG.
 
-**Live implementation:** [text-brush.com](https://text-brush.com) · **Repository:** [github.com/IgorShadurin/brush-photo-video-lib](https://github.com/IgorShadurin/brush-photo-video-lib)
+**Live implementation:** [text-brush.com](https://text-brush.com)
 
 | Original photo | Type text + draw an infinity path |
 | --- | --- |
