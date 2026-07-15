@@ -81,7 +81,7 @@ defmodule Brush do
     end
   end
 
-  defp rdp(points, first, last, tolerance, keep) when last <= first + 1, do: keep
+  defp rdp(_points, first, last, _tolerance, keep) when last <= first + 1, do: keep
   defp rdp(points, first, last, tolerance, keep) do
     {best, index} = Enum.reduce((first + 1)..(last - 1), {0.0, -1}, fn i, {greatest, held} ->
       value = perpendicular(Enum.at(points, i), Enum.at(points, first), Enum.at(points, last))

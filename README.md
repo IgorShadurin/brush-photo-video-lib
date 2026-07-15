@@ -243,8 +243,8 @@ kotlinc languages/kotlin/Brush.kt languages/kotlin/Example.kt -include-runtime -
 java -jar generated/kotlin.jar
 
 # Groovy
-groovyc -d generated/groovy-classes languages/groovy/Brush.groovy languages/groovy/Example.groovy
-groovy -cp generated/groovy-classes Example
+groovyc -d generated/groovy-classes languages/groovy/Brush.groovy
+groovy -cp generated/groovy-classes languages/groovy/Example.groovy
 
 # Scala
 mkdir -p generated/scala-classes

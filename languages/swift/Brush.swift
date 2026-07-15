@@ -1,12 +1,18 @@
 import Foundation
+#if canImport(CoreGraphics)
 import CoreGraphics
+#endif
+#if canImport(CoreText)
 import CoreText
+#endif
 
 public struct BrushPoint: Equatable, Sendable {
     public var x: Double
     public var y: Double
     public init(x: Double, y: Double) { self.x = x; self.y = y }
+#if canImport(CoreGraphics)
     var cgPoint: CGPoint { CGPoint(x: x, y: y) }
+#endif
 }
 
 public struct DrawingPath: Equatable, Sendable {
@@ -221,6 +227,7 @@ public struct ArcLengthPath: Sendable {
     }
 }
 
+#if canImport(CoreGraphics) && canImport(CoreText)
 public struct GlyphPlacement: Sendable {
     public let glyph: String
     public let position: BrushPoint
@@ -344,6 +351,7 @@ public enum TextPathLayouter {
                     text: selected.map(\.text).joined())
     }
 }
+#endif
 
 public enum BrushSVGRenderer {
     private static let allowedMIMEs = ["image/png", "image/jpeg", "image/webp", "image/gif", "image/avif"]
