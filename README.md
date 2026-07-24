@@ -2,6 +2,8 @@
 
 Type some words, draw a line over a photo, and this library makes the words follow that line.
 
+[Get Text Brush Photo Video for iPhone on the App Store](https://apps.apple.com/us/app/text-brush-photo-video/id6791225542?uo=4)
+
 This repository implements the same text-on-path brush algorithm in 20 popular programming languages. Every directory contains a dependency-free library and a runnable example that embeds a photo, builds a smooth path, lays repeated Unicode text on it, and writes a standalone SVG.
 
 **Live implementation:** [text-brush.com](https://text-brush.com?utm_source=gh_brush_lib)
